@@ -1,0 +1,131 @@
+
+* 
+  {
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box; 
+  }
+
+body 
+  {
+background: #f2f2f2;
+font-family: "Josefin Sans";
+border-top: 30px solid #303F9F; 
+  }
+
+.wrap 
+  {
+width: 90%;
+max-width: 500px;
+padding: 40px;
+margin: auto;
+background: #000000;
+box-shadow: 0px 0px 3px grey;  
+  }
+
+.contenedor-formulario .panel-title
+  {
+font-size: 30px;
+font-style: italic;
+color: #333;
+padding: 10px;
+color: white;
+text-shadow: 2px 2px 4px #000000;
+    }
+
+.contenedor-formulario        
+  {
+width: 100%;
+color: #000000;
+padding: 50px; 
+}
+
+.contenedor-formulario .formulario 
+  {
+width: 100%;
+margin: auto; 
+  }
+
+.contenedor-formulario .formulario .input-group 
+  {
+position: relative;
+margin-bottom: 32px; 
+}
+
+.textarea 
+  {
+width: 200%;
+font-family: "Josefin Sans";
+font-size: 18px;
+color: #303F9F;
+outline: none;
+padding: 15px;
+border-radius: 15px;
+ border-bottom: 2px solid #BBDEFB; 
+position: relative;
+  }
+
+.form-control                 
+  {
+width: 200%;
+font-family: "Josefin Sans";
+font-size: 18px;
+color: #303F9F;
+outline: none;
+padding: 15px;
+border-radius: 15px;
+ border-bottom: 2px solid #BBDEFB; 
+  }
+      
+.contenedor-formulario .formulario .input-group label
+  {
+color:  #FFFFFF; 
+  }
+
+.contenedor-formulario .formulario .input-group label.label 
+  {
+-webkit-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+margin-left: 15px;
+font-size: 16px;
+line-height: 16px;
+position: absolute;
+top: 16px;
+left: 0; 
+  }
+
+.contenedor-formulario .formulario .input-group label.label.active 
+  {
+top: -12px;
+font-size: 12px;
+line-height: 12px;
+color: #B6B6B6; 
+  }
+
+.contenedor-formulario .formulario input[type="submit"] 
+  {
+
+background: #999;
+border-radius: 1px;
+border: 2px solid #f2f2f2;
+color: #000000;
+cursor: pointer;
+display: inline-block;
+font-family: "Josefin Sans";
+font-size: 16px;
+padding: 15px;
+width: 25%;
+ border-radius: 15px;
+-webkit-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease; 
+  }
+
+.contenedor-formulario .formulario input[type="submit"]:hover
+  {
+background: #999;
+border-radius: 15px;     
+  }     
