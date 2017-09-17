@@ -40,6 +40,7 @@ class LoginController extends Controller
         } catch (NotActivatedException $e) {
              return redirect()->back()->with(['error' => "Tu cuenta no se encuentra activada!"]);
         }
+  
     }
 
     public function logout()

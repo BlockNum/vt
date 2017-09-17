@@ -1,4 +1,4 @@
-@extends('layouts.navbarlogreg')
+@extends('layouts.generalvinos')
 
 @section('content')
 <head><link rel="stylesheet" href="css/estilosregister.css"></head>

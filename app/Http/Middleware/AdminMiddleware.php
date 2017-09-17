@@ -20,7 +20,7 @@ class AdminMiddleware
 
         //2. Authenticated user should be an admin
 
-        if(Sentinel::check() && Sentinel::getUser()->roles()->first()->slug == 'Admin')
+        if(Sentinel::check() && Sentinel::getUser()->roles()->first()->slug == 'admin')
            // if(Sentinel::getUser()->roles()->first()->slug == 'admin')
            //\Log::info('role', ['role' => Sentinel::getUser()->roles()->first()]);
             return $next($request);

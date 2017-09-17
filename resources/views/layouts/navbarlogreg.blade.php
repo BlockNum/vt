@@ -88,8 +88,8 @@
 </div> -->
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
+<div class="w3-left">
+  <div class="w3-bar w3-red w3-wide w3-padding w3-card-2">
          <a href="/sentinel/public/" class="w3-bar-item w3-button"><b>Vt</b> Vinoteca</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
@@ -98,7 +98,8 @@
           <a href="/sentinel/public/contacto" class="w3-bar-item w3-button">Contacto</a>
           <a href="/sentinel/public/register" class="w3-bar-item w3-button">Registrarse</a>
           <a href="/sentinel/public/login" class="w3-bar-item w3-button">Ingresar</a>
-         
+       
+
      
     </div>
   </div>

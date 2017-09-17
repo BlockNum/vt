@@ -17,7 +17,7 @@ class ManagerMiddleware
      */
     public function handle($request, Closure $next)
     {
-        if(Sentinel::check() && Sentinel::getUser()->roles()->first()->slug == 'Manager')
+        if(Sentinel::check() && Sentinel::getUser()->roles()->first()->slug == 'manager')
            // if(Sentinel::getUser()->roles()->first()->slug == 'admin')
            //\Log::info('role', ['role' => Sentinel::getUser()->roles()->first()]);
             return $next($request);

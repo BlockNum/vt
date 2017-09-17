@@ -1,4 +1,4 @@
-@extends('layouts.navbarlogreg')
+@extends('layouts.generalvinos')
 
 @section('content')
 <head><link rel="stylesheet" href="css/estiloslogin.css"></head>
@@ -68,7 +68,7 @@
 						</div>
 						<div class="form-group">
 					<div class="col-md-6 col-md-offset-4">
-						<a href="{{ url('login/facebook') }}" class=btn btn-facebook><i class="fa fa-facebook"></i> Facebook</a>
+						<!--<a href="{{ url('login/facebook') }}" class=btn btn-facebook><i class="fa fa-facebook"></i> Facebook</a>-->
 						</div>
 					</div>
 

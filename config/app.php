@@ -163,6 +163,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
+    
 
         /*
          * Package Service Providers...
@@ -170,6 +171,7 @@ return [
         Laravel\Tinker\TinkerServiceProvider::class,
         Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        
         /*
          * Application Service Providers...
          */
